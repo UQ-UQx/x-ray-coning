@@ -1,0 +1,201 @@
+html, body, div, p, a, li, ul, img, h1, h2, form{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	border: none;
+	outline: none;
+	text-decoration: none;
+	text-emphasis: none;
+	display: block;
+	font-size: 14px;
+	list-style-type: none;	
+}
+
+#x-ray-coning-container {
+	width: 812px;
+	height: 308px;
+	background-color: #ECECEC;
+	position: relative;
+}
+
+#x-ray-bed {
+	width: 500px;
+	height: 112px;
+	left: 143px;
+	top: 58px;
+	background-color: gray;
+}
+
+.x-ray-frame-transparent {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+}
+
+#x-ray-left-frame {
+	background-color: #000000;
+	top: 58px;
+	left: 272px;
+	width: 10px;
+	height: 112px;
+	position: absolute;
+}
+
+#x-ray-right-frame {
+	background-color: #000000;
+	top: 58px;
+	left: 532px;
+	width: 10px;
+	height: 112px;
+	position: absolute;
+}
+
+#x-ray-top-frame {
+	background-color: #000000;
+	top: 0px;
+	left: 272px;
+	width: 270px;
+	height: 58px;
+	position: absolute;
+}
+
+#x-ray-bottom-frame {
+	background-color: #000000;
+	top: 170px;
+	left: 272px;
+	width: 270px;
+	height: 58px;
+	position: absolute;
+}
+
+#x-ray-controls-container {
+	background-color: #000000;
+	top: 228px;
+	height: 80px;
+	width: 812px;
+	position: absolute;
+}
+
+#x-ray-movement-container {
+	background-color: #ECECEC;
+	top: 0px;
+	left: 0px;
+	height: 228px;
+	width: 812px;
+	position: absolute;
+}
+
+#x-ray-length-slider {
+	top: 20px;
+	left: 180px;
+	height: 2px;
+	width: 200px;
+	background-color: gray;
+	position: absolute;
+}
+
+#x-ray-width-slider {
+	top: 54px;
+	left: 180px;
+	height: 2px;
+	width: 200px;
+	background-color: gray;
+	position: absolute;
+}
+
+#x-ray-width-slider .ui-slider-handle {
+	height: 20px;
+	width: 20px;
+	top: -10px;
+	background-color: #FFFFFF;
+	position: absolute;
+}
+
+#x-ray-length-slider .ui-slider-handle {
+	height: 20px;
+	width: 20px;
+	top: -10px;
+	background-color: #FFFFFF;
+	position: absolute;
+}
+
+#x-ray-length-label {
+	height: 20px;
+	top: 12px;
+	left: 10px;
+	width: 120px;
+	color: #FFFFFF;
+	font-size: 0.9em;
+	position: absolute;
+}
+
+#x-ray-width-label {
+	height: 40px;
+	top: 46px;
+	left: 10px;
+	width: 120px;
+	color: #FFFFFF;
+	font-size: 0.9em;
+	position: absolute;
+}
+
+#x-ray-exposure-container {
+	height: 40px;
+	top: 10px;
+	width: 60px;
+	left: 285px;
+	color: #FFFFFF;
+	position: absolute;
+}
+
+#x-ray-exposure-label {
+	font-size: 0.8em;
+}
+
+#x-ray-exposure-value {
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+#x-ray-length-min {
+	font-size: 0.8em;
+	position: absolute;
+	left: 135px;
+	top: 14px;
+	height: 10px;
+	width: 50px;
+	color: #FFFFFF;
+}
+
+#x-ray-length-max {
+	font-size: 0.8em;
+	position: absolute;
+	left: 415px;
+	top: 14px;
+	height: 10px;
+	width: 50px;
+	color: #FFFFFF;
+}
+
+#x-ray-width-min {
+	font-size: 0.8em;
+	position: absolute;
+	left: 135px;
+	top: 50px;
+	height: 10px;
+	width: 50px;
+	color: #FFFFFF;
+}
+
+#x-ray-width-max {
+	font-size: 0.8em;
+	position: absolute;
+	left: 415px;
+	top: 50px;
+	height: 10px;
+	width: 50px;
+	color: #FFFFFF;
+}

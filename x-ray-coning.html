@@ -1,0 +1,29 @@
+<html>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="x-ray-coning.js"></script>
+  <link href="x-ray-coning.css" rel="stylesheet" type="text/css"></link>
+  <div id="x-ray-coning-container">
+    <div id="x-ray-movement-container">
+      <img id="x-ray-bed" src="x-ray-lady.jpg"/>
+    </div>
+    <div id="x-ray-controls-container">
+	  <div id="x-ray-length-label">Exposure Length</div>
+	  <div id="x-ray-length-min">10 cm</div>
+	  <div id="x-ray-length-max">100 cm</div>
+      <div id="x-ray-length-slider"></div>
+      <div id="x-ray-width-label">Exposure Width</div>
+      <div id="x-ray-width-min">10 cm</div>
+	  <div id="x-ray-width-max">45 cm</div>
+	  <div id="x-ray-width-slider"></div>
+    </div>
+	<div id="x-ray-left-frame" class="x-ray-frame-transparent"></div>
+	<div id="x-ray-top-frame" class="x-ray-frame-transparent"></div>
+	<div id="x-ray-bottom-frame" class="x-ray-frame-transparent"></div>
+	<div id="x-ray-right-frame" class="x-ray-frame-transparent"></div>
+	<div id="x-ray-exposure-container">
+	  <div id="x-ray-exposure-value">100%</div>
+      <div id="x-ray-exposure-label">Exposure</div>
+    </div>
+  </div>
+</html>
